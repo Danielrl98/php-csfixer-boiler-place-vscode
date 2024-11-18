@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Salvar e Formatar",
+      "type": "shell",
+      "command": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix ${file}",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

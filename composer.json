@@ -1,0 +1,18 @@
+{
+    "name": "danie/teste",
+    "autoload": {
+        "psr-4": {
+            "Danie\\Teste\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "daniel-judit",
+            "email": "daniel.resende@judit.io"
+        }
+    ],
+    "require": {},
+    "scripts": { 
+        "fixer": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix src" 
+    }
+}
